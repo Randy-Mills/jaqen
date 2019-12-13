@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Improved Hunting" />
+		<Description value="Minor buffs to hunting related features." />
+		<Author value="mdonjones" />
+		<Version value="A18" />
+    </ModInfo>
+</xml>

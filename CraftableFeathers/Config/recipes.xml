@@ -1,0 +1,12 @@
+<configs>
+    <append xpath="/recipes">
+        <!-- Add recipes for feathers -->
+        <recipe tags="workbenchCrafting" count="1" name="resourceFeather" craft_area="workbench">
+            <ingredient count="3" name="resourcePaper"/>
+        </recipe>
+		
+        <recipe tags="workbenchCrafting" count="1" name="resourceFeather" craft_area="workbench">
+            <ingredient count="1" name="resourceScrapPolymers"/>
+        </recipe>
+    </append>
+</configs>

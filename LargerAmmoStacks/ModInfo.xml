@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+    <ModInfo>
+        <Name value="Larger Ammo Stacks" />
+        <Description value="Increase the stack size of ammo types so your entire inventory isn't bullets." />
+        <Author value="BagtownNinja" />
+        <Version value="1.0.0" />
+    </ModInfo>
+</xml>

@@ -1,0 +1,5 @@
+<configs>
+    <!-- Adds track distance progression -->
+    <set xpath="/progression/perks/perk[@name='perkAnimalTracker']/effect_group/passive_effect[@name='TrackDistance'][@operation='base_set']/@level">0,1,2,3,4,5</set>
+    <set xpath="/progression/perks/perk[@name='perkAnimalTracker']/effect_group/passive_effect[@name='TrackDistance'][@operation='base_set']/@value">0,100,115,130,145,200</set>
+</configs>

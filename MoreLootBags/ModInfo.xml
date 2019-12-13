@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+    <ModInfo>
+        <Name value="JRB_ZombieLootDrop_5" />
+        <Description value="Changes probability of loot drop from .02 to .05 and changes the time the loot disappears from 5 to 15 minutes" />
+        <Author value="jrbarrio, Bagtownninja" />
+        <Version value="3.1" />
+    </ModInfo>
+</xml>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+    <ModInfo>
+        <Name value="Pickupable Workstations" />
+        <Description value="Pick up workstations with a wrench" />
+        <Author value="wp" />
+        <Version value="1.0" />
+    </ModInfo>
+</xml>

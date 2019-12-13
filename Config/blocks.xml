@@ -1,0 +1,88 @@
+<configs>
+    <remove xpath="/blocks/block[@name='chemistryStation']/drop"/>
+    <remove xpath="/blocks/block[@name='forge']/drop"/>
+    <remove xpath="/blocks/block[@name='workbench']/drop"/>
+    <remove xpath="/blocks/block[@name='cementMixer']/drop"/>
+    <remove xpath="/blocks/block[@name='tableSaw']"/>
+
+    <append xpath="/blocks/block[@name='chemistryStation']">
+        <drop event="Harvest" name="" count="0" tool_category="Disassemble" />
+        <drop event="Destroy" name="chemistryStation" count="1" tool_category="Disassemble" />
+        <drop event="Destroy" count="0"/>
+        <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+    </append>
+
+    <append xpath="/blocks/block[@name='forge']">
+        <drop event="Harvest" name="" count="0" tool_category="Disassemble" />
+        <drop event="Destroy" name="forge" count="1" tool_category="Disassemble" />
+        <drop event="Destroy" count="0"/>
+        <drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+    </append>
+
+    <append xpath="/blocks/block[@name='workbench']">
+        <drop event="Harvest" name="" count="0" tool_category="Disassemble" />
+        <drop event="Destroy" name="workbench" count="1" tool_category="Disassemble" />
+        <drop event="Destroy" count="0"/>
+        <drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+    </append>
+
+    <append xpath="/blocks/block[@name='cementMixer']">
+        <drop event="Harvest" name="" count="0" tool_category="Disassemble" />
+        <drop event="Destroy" name="cementMixer" count="1" tool_category="Disassemble" />
+        <drop event="Destroy" count="0"/>
+        <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+    </append>
+
+    <append xpath="/blocks">
+        <block name="tableSaw">
+            <property name="Class" value="Workstation"/>
+            <property name="Material" value="Miron_scrap"/>
+            <property name="MaxDamage" value="800"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="Entities/Crafting/table_sawPrefab"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="OnlySimpleRotations" value="true"/>
+            <property name="ImposterDontBlock" value="true"/>
+            <property name="IsTerrainDecoration" value="true"/>
+            <property name="UnlockedBy" value="perkAdvancedEngineering,tableSawSchematic"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="HeatMapStrength" value="1"/>
+            <property name="HeatMapTime" value="600"/>
+            <property name="HeatMapFrequency" value="60"/>	
+            <property class="Workstation">
+                <property name="Modules" value="output"/>
+                <property name="CraftingAreaRecipes" value="tablesaw"/>
+            </property>
+            <property name="WorkstationIcon" value="ui_game_symbol_table_saw"/>
+            <property name="CraftActionName" value="lblContextActionCraft"/>
+            <property name="CraftIcon" value="ui_game_symbol_table_saw"/>
+            <property name="OpenSound" value="open_workbench"/>
+            <property name="CloseSound" value="close_workbench"/>
+            <property name="WorkstationJournalTip" value="tableSawTip"/>
+            <property name="WorkstationWindow" value="workstation_workbench"/>
+            <drop event="Harvest" name="" count="0" tool_category="Disassemble" />
+            <drop event="Destroy" name="tableSaw" count="1" tool_category="Disassemble" />
+            <drop event="Destroy" count="0"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+        </block>	
+    </append>
+
+    <append xpath="/blocks">
+        <block name="vehicleBicycle">
+            <property name="CreativeMode" value="Player"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="StabilitySupport" value="false"/> <!-- build restriction -->
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Path" value="solid"/>
+            <property name="Model" value="#Entities/Vehicles?bicycle_Prefab.prefab"/>
+            <property name="ImposterExchange" value="imposterCTREighth" param1="111"/>
+            <property name="IsTerrainDecoration" value="true"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <property name="VehicleHitScale" value="4"/>
+            <drop event="Destroy" name="vehicleBicyclePlaceable" count="1"/>
+            <property name="EconomicValue" value="100"/> <!-- disassemble value -->
+            <property name="FilterTags" value="floot,ffurniture"/>
+        </block>
+    </append>
+</configs>

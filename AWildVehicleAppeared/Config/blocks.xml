@@ -1,0 +1,19 @@
+<config>
+    <append xpath="/blocks">
+        <block name="vehicleBicycle">
+            <property name="CreativeMode" value="Player"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="StabilitySupport" value="false"/> <!-- build restriction -->
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Path" value="solid"/>
+            <property name="Model" value="#Entities/Vehicles?bicycle_Prefab.prefab"/>
+            <property name="ImposterExchange" value="imposterCTREighth" param1="111"/>
+            <property name="IsTerrainDecoration" value="true"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <property name="VehicleHitScale" value="4"/>
+            <drop event="Destroy" name="vehicleBicyclePlaceable" count="1"/>
+            <property name="EconomicValue" value="100"/> <!-- disassemble value -->
+            <property name="FilterTags" value="floot,ffurniture"/>
+        </block>
+    </append>
+</config>

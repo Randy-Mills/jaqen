@@ -1,0 +1,15 @@
+<configs>
+    <!-- Friendly Animals - Increases spawn rates -->
+    <set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsSnow']/entity[@name='invisibleAnimal']/@prob">2</set> <!-- default 3 -->
+    <set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsForest']/entity[@name='invisibleAnimal']/@prob">1</set> <!-- default 3 -->
+    <set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsPlains']/entity[@name='invisibleAnimal']/@prob">3</set> <!-- default 6 -->
+    <set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsDesert']/entity[@name='invisibleAnimal']/@prob">3</set> <!-- default 6 -->
+    <set xpath="/entitygroups/entitygroup[@name='FriendlyAnimalsBurntForest']/entity[@name='invisibleAnimal']/@prob">5</set> <!-- default 6 -->
+
+    <!-- Enemy Animals - Increases spawn rates -->
+    <set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']/entity[@name='invisibleAnimalEnemy']/@prob">4</set> <!-- default 6 -->
+    <set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsForest']/entity[@name='invisibleAnimalEnemy']/@prob">4</set> <!-- default 6 -->
+    <set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsPlains']/entity[@name='invisibleAnimalEnemy']/@prob">4</set> <!-- default 6 -->
+    <set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']/entity[@name='invisibleAnimalEnemy']/@prob">4</set> <!-- default 6 -->
+    <set xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']/entity[@name='invisibleAnimalEnemy']/@prob">4</set> <!-- default 6 -->
+</configs>

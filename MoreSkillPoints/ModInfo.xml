@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+    <ModInfo>
+        <Name value="More Skill Points Per Level" />
+        <Description value="Increase the number of skill points per level." />
+        <Author value="Flak" />
+        <Version value="1.0" />
+    </ModInfo>
+</xml>

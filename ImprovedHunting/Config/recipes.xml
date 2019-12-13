@@ -1,0 +1,15 @@
+<configs>
+	<append xpath="/recipes">
+		<!-- Recipe for Polymer Arrows -->
+		<recipe tags="perkArchery" count="1" name="ammoArrowStone">
+			<ingredient name="resourceScrapPolymers" count="1"/>
+			<ingredient name="resourceFeather" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+		</recipe>
+		
+		<!-- Recipe for Paper Feathers -->
+		<recipe tags="perkArchery" count="1" name="resourceFeather">
+			<ingredient count="2" name="resourcePaper"/>
+		</recipe>
+	</append>
+</configs>
