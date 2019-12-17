@@ -1,0 +1,14 @@
+<configs>
+
+<!-- Set the amount of feathers to 5-11 and remove feathers from loot subgroup (not required to be there too since feather chance is now always 100%). -->
+
+	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']/item[@name='resourceFeather']/@count">5,11</set>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupBirdNest']/item[@name='resourceFeather']"/>
+
+<!-- Set the amount of eggs to 1-3 and the spawn chance of eggs to 50%. -->
+
+	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest']/@count">0,1</set>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupBirdNest']/item[@name='foodEgg']" name="count">1,3</setattribute>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest']/item[@name='foodEgg']/@prob">0.5</set>
+
+</configs>

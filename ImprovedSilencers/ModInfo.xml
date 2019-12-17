@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+    <ModInfo>
+        <Name value="Improved Silencers" />
+        <Description value="Reduces the sound silenced weapons make." />
+        <Author value="BagtownNinja" />
+        <Version value="1.0.0" />
+    </ModInfo>
+</xml>

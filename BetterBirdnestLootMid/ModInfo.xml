@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Better Birdnest Loot - Mid option" />
+		<Description value="Improve birdnest loot slightly by increasing feather amount, egg amount and egg spawn chance." />
+		<Author value="moriakGG" />
+		<Version value="1.1" />
+		<Website value="https://www.nexusmods.com/7daystodie/mods/485" />
+	</ModInfo>
+</xml>

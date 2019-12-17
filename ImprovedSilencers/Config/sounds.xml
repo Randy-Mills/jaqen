@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+    <set xpath="/Sounds/SoundDataNode[@name='ak47_s_fire']/Noise/@noise">21</set> <!-- Default 43 -->
+    <set xpath="/Sounds/SoundDataNode[@name='hunting_rifle_s_fire']/Noise/@noise">9</set> <!-- Default 18 -->
+    <set xpath="/Sounds/SoundDataNode[@name='pump_shotgun_s_fire']/Noise/@noise">19</set> <!-- Default 38 -->
+    <set xpath="/Sounds/SoundDataNode[@name='pistol_s_fire']/Noise/@noise">5</set> <!-- Default 17 -->
+    <set xpath="/Sounds/SoundDataNode[@name='mp5_s_fire']/Noise/@noise">9</set> <!-- Default 18 -->
+    <set xpath="/Sounds/SoundDataNode[@name='m60_s_fire']/Noise/@noise">23</set> <!-- Default 47 -->
+    <set xpath="/Sounds/SoundDataNode[@name='sniperrifle_s_fire']/Noise/@noise">14</set> <!-- Default 34 -->
+</configs>
