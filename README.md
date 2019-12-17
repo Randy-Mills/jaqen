@@ -12,6 +12,7 @@ Mods Included
 * Flak's More Skill Points
 * jrbarrio's Zombie Loot Drop
 * mdonjones' Improved Hunting
+* mdonjones' & BagtownNinja's FindersKeepers
 * Sirillion's SMXhud, SMXmenu, and SMXui
 * wp's Pickupable Workstations
 

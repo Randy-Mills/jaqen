@@ -1,0 +1,6 @@
+<!-- FindersKeepers -->
+<configs>
+    <append xpath="/blockplaceholders/placeholder[@name='cntWastelandRandomLootHelper']">
+        <block name="cntBikeSpawn" prob="2"/>
+    </append>
+</configs>

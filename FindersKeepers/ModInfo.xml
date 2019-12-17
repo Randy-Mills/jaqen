@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="FindersKeepers" />
+		<Description value="Find vehicles in the world, and keep em." />
+		<Author value="mdonjones" />
+		<Version value="A18" />
+    </ModInfo>
+</xml>
