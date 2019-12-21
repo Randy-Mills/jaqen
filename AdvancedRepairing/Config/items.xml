@@ -1,10 +1,13 @@
 <configs>
     <!-- Tools -->
+    <append xpath="/items/item[@name='meleeToolFireaxeSteel']">
+        <property name="RepairTools" value="resourceRepairWhetstoneKit"/>
+    </append>
+
     <set xpath="/items/item[@name='meleeToolClawHammer']/property[@name='RepairTools']/@value">resourceForgedIron</set>
     <set xpath="/items/item[@name='meleeToolWrench']/property[@name='RepairTools']/@value">resourceForgedIron</set>
     <set xpath="/items/item[@name='gunToolNailgun']/property[@name='RepairTools']/@value">resourceRepairKit</set>
     <set xpath="/items/item[@name='meleeToolFireaxeIron']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
-    <set xpath="/items/item[@name='meleeToolFireaxeSteel']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
     <set xpath="/items/item[@name='meleeToolPickaxeIron']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
     <set xpath="/items/item[@name='meleeToolPickaxeSteel']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
     <set xpath="/items/item[@name='meleeToolShovelIron']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
@@ -13,6 +16,13 @@
     <set xpath="/items/item[@name='meleeToolAuger']/property[@name='RepairTools']/@value">resourceRepairKit</set>
 
     <!-- Melee -->
+    <append xpath="/items/item[@name='meleeThrownSpearSteel']">
+        <property name="RepairTools" value="resourceRepairWhetstoneKit"/>
+    </append>
+    <append xpath="/items/item[@name='meleeKnucklesSteel']">
+        <property name="RepairTools" value="resourceRepairWhetstoneKit"/>
+    </append>
+
     <set xpath="/items/item[@name='meleeToolKnifeIron']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
     <set xpath="/items/item[@name='meleeToolKnifeCandy']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
     <set xpath="/items/item[@name='meleeToolKnifeMachete']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
@@ -20,11 +30,9 @@
     <set xpath="/items/item[@name='meleeClubCandy']/property[@name='RepairTools']/@value">resourceForgedIron</set>
     <set xpath="/items/item[@name='meleeClubBaseballBat']/property[@name='RepairTools']/@value">resourceWood</set>
     <set xpath="/items/item[@name='meleeThrownSpearIron']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
-    <set xpath="/items/item[@name='meleeThrownSpearSteel']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
     <set xpath="/items/item[@name='meleeToolSledgehammerIron']/property[@name='RepairTools']/@value">resourceForgedIron</set>
     <set xpath="/items/item[@name='meleeToolSledgehammerSteel']/property[@name='RepairTools']/@value">resourceForgedSteel</set>
     <set xpath="/items/item[@name='meleeKnucklesIron']/property[@name='RepairTools']/@value">resourceForgedIron</set>
-    <set xpath="/items/item[@name='meleeKnucklesSteel']/property[@name='RepairTools']/@value">resourceForgedSteel</set>
     <set xpath="/items/item[@name='meleeToolHoeIron']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
 
     <!-- Firearms -->
@@ -66,6 +74,7 @@
             <property name="Extends" value="resourceRepairKit"/>
             <property name="Material" value="Mstone"/>
             <property name="Stacknumber" value="100"/>
+            <property name="CustomIcon" value="resourceRepairWhetstoneKit"/>
         </item>
 
         <!-- Firearms -->
@@ -73,30 +82,35 @@
             <property name="Extends" value="resourceRepairKit"/>
             <property name="Material" value="Msteel"/>
             <property name="Stacknumber" value="100"/>
+            <property name="CustomIcon" value="resourceRepairHandgunKit"/>
         </item>
 
         <item name="resourceRepairRifleKit">
             <property name="Extends" value="resourceRepairKit"/>
             <property name="Material" value="Msteel"/>
             <property name="Stacknumber" value="100"/>
+            <property name="CustomIcon" value="resourceRepairRifleKit"/>
         </item>
 
         <item name="resourceRepairAutomaticKit">
             <property name="Extends" value="resourceRepairKit"/>
             <property name="Material" value="Msteel"/>
             <property name="Stacknumber" value="100"/>
+            <property name="CustomIcon" value="resourceRepairAutomaticKit"/>
         </item>
 
         <item name="resourceRepairLauncherKit">
             <property name="Extends" value="resourceRepairKit"/>
             <property name="Material" value="Msteel"/>
             <property name="Stacknumber" value="100"/>
+            <property name="CustomIcon" value="resourceRepairLauncherKit"/>
         </item>
 
         <item name="resourceRepairBowKit">
             <property name="Extends" value="resourceRepairKit"/>
             <property name="Material" value="Mwood"/>
             <property name="Stacknumber" value="100"/>
+            <property name="CustomIcon" value="resourceRepairBowKit"/>
         </item>
 
         <!-- Armour -->
@@ -104,36 +118,42 @@
             <property name="Extends" value="resourceRepairKit"/>
             <property name="Material" value="Mcloth"/>
             <property name="Stacknumber" value="100"/>
+            <property name="CustomIcon" value="resourceRepairClothKit"/>
         </item>
 
         <item name="resourceRepairLeatherKit">
             <property name="Extends" value="resourceRepairKit"/>
             <property name="Material" value="Mcloth"/>
             <property name="Stacknumber" value="100"/>
+            <property name="CustomIcon" value="resourceRepairLeatherKit"/>
         </item>
 
         <item name="resourceRepairIronKit">
             <property name="Extends" value="resourceRepairKit"/>
             <property name="Material" value="Msteel"/>
             <property name="Stacknumber" value="100"/>
+            <property name="CustomIcon" value="resourceRepairIronKit"/>
         </item>
 
         <item name="resourceRepairMilitaryKit">
             <property name="Extends" value="resourceRepairKit"/>
             <property name="Material" value="Msteel"/>
             <property name="Stacknumber" value="100"/>
+            <property name="CustomIcon" value="resourceRepairMilitaryKit"/>
         </item>
 
         <item name="resourceRepairScrapKit">
             <property name="Extends" value="resourceRepairKit"/>
             <property name="Material" value="Msteel"/>
             <property name="Stacknumber" value="100"/>
+            <property name="CustomIcon" value="resourceRepairScrapKit"/>
         </item>
 
         <item name="resourceRepairSteelKit">
             <property name="Extends" value="resourceRepairKit"/>
             <property name="Material" value="Msteel"/>
             <property name="Stacknumber" value="100"/>
+            <property name="CustomIcon" value="resourceRepairSteelKit"/>
         </item>
     </append>
 </configs>

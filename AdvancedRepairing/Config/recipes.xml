@@ -17,39 +17,39 @@
         </recipe>
 
         <!-- Melee Weapons/Tools -->
-        <recipe name="resourceRepairWhetstone" count="2">
+        <recipe name="resourceRepairWhetstoneKit" count="2">
             <ingredient name="resourceRockSmall" count="5"/>
             <ingredient name="resourceOil" count="1"/>
         </recipe>
 
         <!-- Firearms -->
-        <recipe name="resourceRepairHandgun" count="1" tags="workbenchCrafting" craft_area="workbench">
+        <recipe name="resourceRepairHandgunKit" count="1" tags="workbenchCrafting" craft_area="workbench">
             <ingredient name="resourceMetalPipe" count="1"/>
             <ingredient name="resourceSpring" count="1"/>
             <ingredient name="resourceDuctTape" count="1"/>
         </recipe>
 
-        <recipe name="resourceRepairRifle" count="1" tags="workbenchCrafting" craft_area="workbench">
+        <recipe name="resourceRepairRifleKit" count="1" tags="workbenchCrafting" craft_area="workbench">
             <ingredient name="resourceForgedIron" count="1"/>
             <ingredient name="resourceMetalPipe" count="2"/>
             <ingredient name="resourceSpring" count="1"/>
             <ingredient name="resourceDuctTape" count="1"/>
         </recipe>
 
-        <recipe name="resourceRepairAutomatic" count="1" tags="workbenchCrafting" craft_area="workbench">
+        <recipe name="resourceRepairAutomaticKit" count="1" tags="workbenchCrafting" craft_area="workbench">
             <ingredient name="resourceForgedIron" count="1"/>
             <ingredient name="resourceMetalPipe" count="2"/>
             <ingredient name="resourceSpring" count="2"/>
             <ingredient name="resourceOil" count="1"/>
         </recipe>
 
-        <recipe name="resourceRepairLauncher" count="1" tags="workbenchCrafting" craft_area="workbench">
+        <recipe name="resourceRepairLauncherKit" count="1" tags="workbenchCrafting" craft_area="workbench">
             <ingredient name="resourceForgedIron" count="3"/>
             <ingredient name="resourceSpring" count="5"/>
             <ingredient name="resourceOil" count="1"/>
         </recipe>
 
-        <recipe name="resourceRepairBow" count="1" tags="workbenchCrafting" craft_area="workbench">
+        <recipe name="resourceRepairBowKit" count="1" tags="workbenchCrafting" craft_area="workbench">
             <ingredient name="resourceWood" count="3"/>
             <ingredient name="resourceYuccaFibers" count="5"/>
             <ingredient name="resourceLeather" count="2"/>
@@ -57,35 +57,35 @@
         </recipe>
 
         <!-- Armour -->
-        <recipe name="resourceRepairCloth" count="1">
+        <recipe name="resourceRepairClothKit" count="1">
             <ingredient name="resourceCloth" count="2"/>
             <ingredient name="resourceSewingKit" count="1"/>
         </recipe>
 
-        <recipe name="resourceRepairLeather" count="1" tags="workbenchCrafting" craft_area="workbench">
+        <recipe name="resourceRepairLeatherKit" count="1" tags="workbenchCrafting" craft_area="workbench">
             <ingredient name="resourceLeather" count="2"/>
             <ingredient name="resourceSewingKit" count="1"/>
         </recipe>
 
-        <recipe name="resourceRepairIron" count="1" tags="workbenchCrafting" craft_area="workbench">
+        <recipe name="resourceRepairIronKit" count="1" tags="workbenchCrafting" craft_area="workbench">
             <ingredient name="resourceForgedIron" count="3"/>
             <ingredient name="resourceCloth" count="1"/>
             <ingredient name="resourceDuctTape" count="1"/>
         </recipe>
 
-        <recipe name="resourceRepairMilitary" count="1" tags="workbenchCrafting" craft_area="workbench">
+        <recipe name="resourceRepairMilitaryKit" count="1" tags="workbenchCrafting" craft_area="workbench">
             <ingredient name="resourceMilitaryFiber" count="1"/>
             <ingredient name="resourceLeather" count="3"/>
             <ingredient name="resourceSewingKit" count="1"/>
         </recipe>
 
-        <recipe name="resourceRepairScrap" count="1">
+        <recipe name="resourceRepairScrapKit" count="1">
             <ingredient name="resourceScrapIron" count="3"/>
             <ingredient name="resourceLeather" count="1"/>
             <ingredient name="resourceSewingKit" count="1"/>
         </recipe>
 
-        <recipe name="resourceRepairSteel" count="1">
+        <recipe name="resourceRepairSteelKit" count="1">
             <ingredient name="resourceForgedSteel" count="3"/>
             <ingredient name="resourceLeather" count="2"/>
             <ingredient name="resourceSewingKit" count="1"/>
