@@ -1,0 +1,139 @@
+<configs>
+    <!-- Tools -->
+    <set xpath="/items/item[@name='meleeToolClawHammer']/property[@name='RepairTools']/@value">resourceForgedIron</set>
+    <set xpath="/items/item[@name='meleeToolWrench']/property[@name='RepairTools']/@value">resourceForgedIron</set>
+    <set xpath="/items/item[@name='gunToolNailgun']/property[@name='RepairTools']/@value">resourceRepairKit</set>
+    <set xpath="/items/item[@name='meleeToolFireaxeIron']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
+    <set xpath="/items/item[@name='meleeToolFireaxeSteel']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
+    <set xpath="/items/item[@name='meleeToolPickaxeIron']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
+    <set xpath="/items/item[@name='meleeToolPickaxeSteel']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
+    <set xpath="/items/item[@name='meleeToolShovelIron']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
+    <set xpath="/items/item[@name='meleeToolShovelSteel']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
+    <set xpath="/items/item[@name='meleeToolChainsaw']/property[@name='RepairTools']/@value">resourceRepairKit</set>
+    <set xpath="/items/item[@name='meleeToolAuger']/property[@name='RepairTools']/@value">resourceRepairKit</set>
+
+    <!-- Melee -->
+    <set xpath="/items/item[@name='meleeToolKnifeIron']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
+    <set xpath="/items/item[@name='meleeToolKnifeCandy']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
+    <set xpath="/items/item[@name='meleeToolKnifeMachete']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
+    <set xpath="/items/item[@name='meleeClubIron']/property[@name='RepairTools']/@value">resourceForgedIron</set>
+    <set xpath="/items/item[@name='meleeClubCandy']/property[@name='RepairTools']/@value">resourceForgedIron</set>
+    <set xpath="/items/item[@name='meleeClubBaseballBat']/property[@name='RepairTools']/@value">resourceWood</set>
+    <set xpath="/items/item[@name='meleeThrownSpearIron']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
+    <set xpath="/items/item[@name='meleeThrownSpearSteel']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
+    <set xpath="/items/item[@name='meleeToolSledgehammerIron']/property[@name='RepairTools']/@value">resourceForgedIron</set>
+    <set xpath="/items/item[@name='meleeToolSledgehammerSteel']/property[@name='RepairTools']/@value">resourceForgedSteel</set>
+    <set xpath="/items/item[@name='meleeKnucklesIron']/property[@name='RepairTools']/@value">resourceForgedIron</set>
+    <set xpath="/items/item[@name='meleeKnucklesSteel']/property[@name='RepairTools']/@value">resourceForgedSteel</set>
+    <set xpath="/items/item[@name='meleeToolHoeIron']/property[@name='RepairTools']/@value">resourceRepairWhetstoneKit</set>
+
+    <!-- Firearms -->
+    <set xpath="/items/item[@name='gunPistol']/property[@name='RepairTools']/@value">resourceRepairHandgunKit</set>
+    <set xpath="/items/item[@name='gun44Magnum']/property[@name='RepairTools']/@value">resourceRepairHandgunKit</set>
+    <set xpath="/items/item[@name='gunSMG5']/property[@name='RepairTools']/@value">resourceRepairAutomaticKit</set>
+    <set xpath="/items/item[@name='gunDoubleBarrelShotgun']/property[@name='RepairTools']/@value">resourceRepairRifleKit</set>
+    <set xpath="/items/item[@name='gunPumpShotgun']/property[@name='RepairTools']/@value">resourceRepairRifleKit</set>
+    <set xpath="/items/item[@name='gunHuntingRifle']/property[@name='RepairTools']/@value">resourceRepairRifleKit</set>
+    <set xpath="/items/item[@name='gunMR10']/property[@name='RepairTools']/@value">resourceRepairRifleKit</set>
+    <set xpath="/items/item[@name='gunAK47']/property[@name='RepairTools']/@value">resourceRepairAutomaticKit</set>
+    <set xpath="/items/item[@name='gunTacticalAR']/property[@name='RepairTools']/@value">resourceRepairAutomaticKit</set>
+    <set xpath="/items/item[@name='gunM60']/property[@name='RepairTools']/@value">resourceRepairAutomaticKit</set>
+    <set xpath="/items/item[@name='gunRocketLauncher']/property[@name='RepairTools']/@value">resourceRepairLauncherKit</set>
+    <set xpath="/items/item[@name='gunBowWooden']/property[@name='RepairTools']/@value">resourceRepairBowKit</set>
+    <set xpath="/items/item[@name='gunBowCompound']/property[@name='RepairTools']/@value">resourceRepairBowKit</set>
+    <set xpath="/items/item[@name='gunCrossbowIron']/property[@name='RepairTools']/@value">resourceRepairBowKit</set>
+    <set xpath="/items/item[@name='gunCrossbowCompound']/property[@name='RepairTools']/@value">resourceRepairBowKit</set>
+    <set xpath="/items/item[@name='gunJunkTurret']/property[@name='RepairTools']/@value">resourceRepairAutomaticKit</set>
+
+    <!-- Armour -->
+    <set xpath="/items/item[@name='armorClothMaster']/property[@name='RepairTools']/@value">resourceRepairClothKit</set>
+    <set xpath="/items/item[@name='armorLeatherMaster']/property[@name='RepairTools']/@value">resourceRepairLeatherKit</set>
+    <set xpath="/items/item[@name='armorMilitaryMaster']/property[@name='RepairTools']/@value">resourceRepairMilitaryKit</set>
+    <set xpath="/items/item[@name='armorScrapMaster']/property[@name='RepairTools']/@value">resourceRepairScrapKit</set>
+    <set xpath="/items/item[@name='armorIronMaster']/property[@name='RepairTools']/@value">resourceRepairIronKit</set>
+    <set xpath="/items/item[@name='armorSteelMaster']/property[@name='RepairTools']/@value">resourceRepairSteelKit</set>
+
+    <set xpath="/items/item[@name='armorMiningHelmet']/property[@name='RepairTools']/@value">resourceRepairIronKit</set>
+    <set xpath="/items/item[@name='armorFirefightersHelmet']/property[@name='RepairTools']/@value">resourceRepairIronKit</set>
+    <set xpath="/items/item[@name='armorSwatHelmet']/property[@name='RepairTools']/@value">resourceRepairMilitaryKit</set>
+    <set xpath="/items/item[@name='armorFootballHelmet']/property[@name='RepairTools']/@value">resourceRepairIronKit</set>
+
+    <set xpath="/items/item[@name='armorFootballHelmet']/property[@name='RepairTools']/@value">resourceRepairIronKit</set>
+
+    <append xpath="/items">
+        <!-- Melee Weapons/Tools -->
+        <item name="resourceRepairWhetstoneKit">
+            <property name="Extends" value="resourceRepairKit"/>
+            <property name="Material" value="Mstone"/>
+            <property name="Stacknumber" value="100"/>
+        </item>
+
+        <!-- Firearms -->
+        <item name="resourceRepairHandgunKit">
+            <property name="Extends" value="resourceRepairKit"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Stacknumber" value="100"/>
+        </item>
+
+        <item name="resourceRepairRifleKit">
+            <property name="Extends" value="resourceRepairKit"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Stacknumber" value="100"/>
+        </item>
+
+        <item name="resourceRepairAutomaticKit">
+            <property name="Extends" value="resourceRepairKit"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Stacknumber" value="100"/>
+        </item>
+
+        <item name="resourceRepairLauncherKit">
+            <property name="Extends" value="resourceRepairKit"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Stacknumber" value="100"/>
+        </item>
+
+        <item name="resourceRepairBowKit">
+            <property name="Extends" value="resourceRepairKit"/>
+            <property name="Material" value="Mwood"/>
+            <property name="Stacknumber" value="100"/>
+        </item>
+
+        <!-- Armour -->
+        <item name="resourceRepairClothKit">
+            <property name="Extends" value="resourceRepairKit"/>
+            <property name="Material" value="Mcloth"/>
+            <property name="Stacknumber" value="100"/>
+        </item>
+
+        <item name="resourceRepairLeatherKit">
+            <property name="Extends" value="resourceRepairKit"/>
+            <property name="Material" value="Mcloth"/>
+            <property name="Stacknumber" value="100"/>
+        </item>
+
+        <item name="resourceRepairIronKit">
+            <property name="Extends" value="resourceRepairKit"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Stacknumber" value="100"/>
+        </item>
+
+        <item name="resourceRepairMilitaryKit">
+            <property name="Extends" value="resourceRepairKit"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Stacknumber" value="100"/>
+        </item>
+
+        <item name="resourceRepairScrapKit">
+            <property name="Extends" value="resourceRepairKit"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Stacknumber" value="100"/>
+        </item>
+
+        <item name="resourceRepairSteelKit">
+            <property name="Extends" value="resourceRepairKit"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Stacknumber" value="100"/>
+        </item>
+    </append>
+</configs>
