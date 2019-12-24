@@ -6,6 +6,7 @@ A collection of Mods for 7 Days to Die that will serve as the modpack for the "A
 
 Mods Included
 * Axebeard's Craftable Feathers
+* BagtownNinja and mdonjones' Advanced Repairing
 * BagtownNinja's Faster Vehicles
 * BagtownNinja's Larger Ammo Stacks
 * BagtownNinja's Quality Meats

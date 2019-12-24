@@ -4,7 +4,7 @@
 	<ModInfo>
 		<Name value="Advanced Repairing" />
 		<Description value="Make repairing things a little more complex." />
-		<Author value="BagtownNinja" />
+		<Author value="BagtownNinja, mdonjones" />
 		<Version value="1.0.0" />
 	</ModInfo>
 </xml>
