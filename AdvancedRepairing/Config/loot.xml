@@ -1,95 +1,51 @@
-<configs>
-	<set xpath="/lootcontainers/lootgroup[@name='workbenchLoot']/@count">1,4</set>
+<?xml version="1.0" encoding="UTF-8"?>
+<RepairMods>
+    <append xpath="/lootcontainers">
+        <lootgroup name="repairItems">
+            <item name="resourceRepairKit" loot_prob_template="probTemplate0.75"/>
+            <item name="resourceRepairWhetstoneKit" count="1,2" loot_prob_template="probTemplate1.0"/>
+            <item name="resourceRepairHandgunKit" loot_prob_template="probTemplate1.0"/>
+            <item name="resourceRepairRifleKit" loot_prob_template="probTemplate0.75"/>
+            <item name="resourceRepairAutomaticKit" loot_prob_template="probTemplate0.75"/>
+            <item name="resourceRepairLauncherKit" loot_prob_template="probTemplate0.5"/>
+            <item name="resourceRepairBowKit" loot_prob_template="probTemplate1.0"/>
+            <item name="resourceRepairClothKit" loot_prob_template="probTemplate1.0"/>
+            <item name="resourceRepairLeatherKit" loot_prob_template="probTemplate1.0"/>
+            <item name="resourceRepairIronKit" loot_prob_template="probTemplate0.75"/>
+            <item name="resourceRepairMilitaryKit" loot_prob_template="probTemplate0.5"/>
+            <item name="resourceRepairScrapKit" loot_prob_template="probTemplate1.0"/>
+            <item name="resourceRepairSteelKit" loot_prob_template="probTemplate0.5"/>
+        </lootgroup>
+    </append>
+
+	<set xpath="/lootcontainers/lootgroup[@name='workbenchLoot']/@count">1,3</set>
     <append xpath="/lootcontainers/lootgroup[@name='workbenchLoot']">
-        <item name="resourceRepairWhetstoneKit" count="1,3"/>
-        <item name="resourceRepairHandgunKit"/>
-        <item name="resourceRepairRifleKit"/>
-        <item name="resourceRepairAutomaticKit" prob="0.75"/>
-        <item name="resourceRepairLauncherKit" prob="0.25"/>
-        <item name="resourceRepairBowKit"/>
-        <item name="resourceRepairClothKit" count="1,2"/>
-        <item name="resourceRepairLeatherKit"/>
-        <item name="resourceRepairIronKit"/>
-        <item name="resourceRepairMilitaryKit" prob="0.25"/>
-        <item name="resourceRepairScrapKit" count="1,2"/>
-        <item name="resourceRepairSteelKit" prob="0.5"/>
+        <item group="repairItems"/>
     </append>
+    <remove xpath="/lootcontainers/lootgroup[@name='workbenchLoot']/item[@name='resourceRepairKit']"/>
 
-    <set xpath="/lootcontainers/lootgroup[@name='tools']/@count">1,3</set>
     <append xpath="/lootcontainers/lootgroup[@name='tools']">
-        <item name="resourceRepairWhetstoneKit" count="1,4"/>
-        <item name="resourceRepairHandgunKit" count="1,3"/>
-        <item name="resourceRepairRifleKit" count="1,2"/>
-        <item name="resourceRepairAutomaticKit" prob="0.75"/>
-        <item name="resourceRepairLauncherKit" prob="0.25"/>
-        <item name="resourceRepairBowKit" count="1,3"/>
-        <item name="resourceRepairClothKit" count="1,3"/>
-        <item name="resourceRepairLeatherKit" count="1,2"/>
-        <item name="resourceRepairIronKit" count="1,2"/>
-        <item name="resourceRepairMilitaryKit" prob="0.25"/>
-        <item name="resourceRepairScrapKit" count="1,2"/>
-        <item name="resourceRepairSteelKit" prob="0.5"/>
+        <item group="repairItems"/>
     </append>
+    <remove xpath="/lootcontainers/lootgroup[@name='tools']/item[@name='resourceRepairKit']"/>
 
-    <set xpath="/lootcontainers/lootgroup[@name='workingStiffs']/@count">1,2</set>
     <append xpath="/lootcontainers/lootgroup[@name='workingStiffs']">
-        <item name="resourceRepairWhetstoneKit" count="1,4"/>
-        <item name="resourceRepairHandgunKit" count="1,3"/>
-        <item name="resourceRepairRifleKit" count="1,2"/>
-        <item name="resourceRepairAutomaticKit" prob="0.75"/>
-        <item name="resourceRepairLauncherKit" prob="0.25"/>
-        <item name="resourceRepairBowKit" count="1,3"/>
-        <item name="resourceRepairClothKit" count="1,3"/>
-        <item name="resourceRepairLeatherKit" count="1,2"/>
-        <item name="resourceRepairIronKit" count="1,2"/>
-        <item name="resourceRepairMilitaryKit" prob="0.25"/>
-        <item name="resourceRepairScrapKit" count="1,2"/>
-        <item name="resourceRepairSteelKit" prob="0.5"/>
+        <item group="repairItems"/>
     </append>
+    <remove xpath="/lootcontainers/lootgroup[@name='workingStiffs']/item[@name='resourceRepairKit']"/>
 
-    <set xpath="/lootcontainers/lootgroup[@id='50']/@count">1,4</set>
     <append xpath="/lootcontainers/lootgroup[@id='50']">
-        <item name="resourceRepairHandgunKit" count="1,3" prob="0.2"/>
-        <item name="resourceRepairRifleKit" count="1,2" prob="0.2"/>
-        <item name="resourceRepairAutomaticKit" prob="0.1"/>
-        <item name="resourceRepairLauncherKit" prob="0.1"/>
-        <item name="resourceRepairBowKit" count="1,3" prob="0.1"/>
-        <item name="resourceRepairClothKit" count="1,3" prob="0.1"/>
-        <item name="resourceRepairLeatherKit" count="1,2" prob="0.1"/>
-        <item name="resourceRepairIronKit" count="1,2" prob="0.2"/>
-        <item name="resourceRepairMilitaryKit" prob="0.1"/>
-        <item name="resourceRepairScrapKit" count="1,2" prob="0.1"/>
-        <item name="resourceRepairSteelKit" prob="0.1"/>
+        <item group="repairItems"/>
     </append>
+    <remove xpath="/lootcontainers/lootgroup[@id='50']/item[@name='resourceRepairKit']"/>
 
-    <set xpath="/lootcontainers/lootgroup[@id='90']/@count">1,4</set>
     <append xpath="/lootcontainers/lootgroup[@id='90']">
-        <item name="resourceRepairHandgunKit" count="1,6" prob="0.4"/>
-        <item name="resourceRepairRifleKit" count="1,5" prob="0.4"/>
-        <item name="resourceRepairAutomaticKit" count="1,4" prob="0.2"/>
-        <item name="resourceRepairLauncherKit" prob="0.1"/>
-        <item name="resourceRepairBowKit" count="1,4" prob="0.2"/>
-        <item name="resourceRepairClothKit" count="1,4" prob="0.1"/>
-        <item name="resourceRepairLeatherKit" count="1,3" prob="0.1"/>
-        <item name="resourceRepairIronKit" count="1,4" prob="0.3"/>
-        <item name="resourceRepairMilitaryKit" prob="0.1"/>
-        <item name="resourceRepairScrapKit" count="1,4" prob="0.3"/>
-        <item name="resourceRepairSteelKit" count="1,2" prob="0.2"/>
+        <item group="repairItems"/>
     </append>
+    <remove xpath="/lootcontainers/lootgroup[@id='90']/item[@name='resourceRepairKit']"/>
 
-    <set xpath="/lootcontainers/lootgroup[@id='124']/@count">1,4</set>
     <append xpath="/lootcontainers/lootgroup[@id='124']">
-        <item name="resourceRepairWhetstoneKit" count="1,3"/>
-        <item name="resourceRepairHandgunKit" count="1,3"/>
-        <item name="resourceRepairRifleKit" count="1,3"/>
-        <item name="resourceRepairAutomaticKit" count="1,3" prob="0.75"/>
-        <item name="resourceRepairLauncherKit" prob="0.25"/>
-        <item name="resourceRepairBowKit" count="1,3"/>
-        <item name="resourceRepairClothKit" count="1,3"/>
-        <item name="resourceRepairLeatherKit" count="1,3"/>
-        <item name="resourceRepairIronKit" count="1,3"/>
-        <item name="resourceRepairMilitaryKit" prob="0.25"/>
-        <item name="resourceRepairScrapKit" count="1,3" count="1,2"/>
-        <item name="resourceRepairSteelKit" count="1,2" prob="0.5"/>
+        <item group="repairItems"/>
     </append>
-</configs>
+    <remove xpath="/lootcontainers/lootgroup[@id='124']/item[@name='resourceRepairKit']"/>
+</RepairMods>

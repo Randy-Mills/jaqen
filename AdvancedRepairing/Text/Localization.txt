@@ -1,0 +1,13 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+resourceRepairWhetstoneKit,,items,Item,--,Whetstone,,,,,
+resourceRepairHandgunKit,,items,Item,--,Handgun Repair Kit,,,,,
+resourceRepairRifleKit,,items,Item,--,Longarm Repair Kit,,,,,
+resourceRepairAutomaticKit,,items,Item,--,Machine Gun Repair Kit,,,,,
+resourceRepairLauncherKit,,items,Item,--,Launcher Repair Kit,,,,,
+resourceRepairBowKit,,items,Item,--,Bow Repair Kit,,,,,
+resourceRepairClothKit,,items,Item,--,Cloth Armour Repair Kit,,,,,
+resourceRepairLeatherKit,,items,Item,--,Leather Armour Repair Kit,,,,,
+resourceRepairIronKit,,items,Item,--,Iron Armour Repair Kit,,,,,
+resourceRepairMilitaryKit,,items,Item,--,Military Armour Repair Kit,,,,,
+resourceRepairScrapKit,,items,Item,--,Scrap Armour Repair Kit,,,,,
+resourceRepairSteelKit,,items,Item,--,Steel Armour Repair Kit,,,,,
