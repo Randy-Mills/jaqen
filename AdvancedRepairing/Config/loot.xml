@@ -15,8 +15,8 @@
             <item name="resourceRepairMilitaryKit" loot_prob_template="probTemplate0.5"/>
             <item name="resourceRepairScrapKit" loot_prob_template="probTemplate1.0"/>
             <item name="resourceRepairSteelKit" loot_prob_template="probTemplate0.5"/>
-        </insertAfter>
-    </append>
+        </lootgroup>
+    </insertAfter>
 
 	<set xpath="/lootcontainers/lootgroup[@name='workbenchLoot']/@count">1,3</set>
     <append xpath="/lootcontainers/lootgroup[@name='workbenchLoot']">
